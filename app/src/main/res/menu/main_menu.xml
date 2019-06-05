@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<group
+    android:checkableBehavior="single">
+    <item android:id="@+id/mi_slideOne"
+        android:title="@string/slideOne"
+        android:icon="@drawable/satisfied"/>
+    <item android:id="@+id/mi_slideTwo"
+        android:title="@string/slideTwo"
+        android:icon="@drawable/neutral"/>
+    <item android:id="@+id/mi_slideThree"
+        android:title="@string/slideThree"
+        android:icon="@drawable/dissatisfied"/>
+
+</group>
+</menu>
